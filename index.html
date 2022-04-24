@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>My Mini Project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->      
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+    crossorigin="anonymous">
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous"
+    ></script>
+    <link 
+            rel="stylesheet" 
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+            />
+        
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid" style="display: flex;">
+          <button class="navbar-toggler" 
+                  type="button" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target="#navbarSupportedContent" 
+                  aria-controls="navbarSupportedContent" 
+                  aria-expanded="false" 
+                  aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" 
+          id="navbarSupportedContent">
+          <a class="navbar-brand" href="#" >
+            <img src="./img/delicious-logo.png" href="#" style="height: 70px;" alt="Delicious">
+          </a>
+            <ul class="navbar-nav m-auto my-2 my-lg-0">
+      
+              <li class="nav-item">
+                <a class="nav-link active" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./menu.html">MENU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./booking.html">Reservation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn0" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+      <section class="main">
+        <nav>
+         
+        <div class="row">
+          <div class="text-center">
+            
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000" >
+              <img src="./img/carousel3.png" class="d-block w-100" style="height: 650px;" alt="..." >
+            </div>
+            <div class="carousel-item" data-bs-interval="3000" >
+              <img src="./img/carousel.png" class="d-block w-100" style="height: 650px;" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="./img/carousel 2.png" class="d-block w-100" style="height: 650px;" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+          </div>
+        </div>
+      </nav>
+      </section>
+      
+
+<!-- Our Specials -->
+      <section class="new">
+        <div class="grid">
+        </div>
+      <h3 class="ourSpecials__title" style="text-align: center; padding-top: 40px; padding-bottom: 20px; padding-left: 0px; font-weight: 700;">Our Specials</h3>
+      <div class="ourSpecials__wrapper">
+        <div class="ourSpecials__item g-col-6">
+          <div class="ourSpecials__item__img">
+            <img src="./img/beefstroganof.jpeg" style="height: 260px; width: 300px;" alt="food img">
+          </div>
+          <div class="ourSpecials__item__info">
+            <h3 class="ourSpecials__item__title">
+              Fillet of Beef Stroganof
+            </h3>
+            <h4 class="ourSpecials__item__price">Rp.54.000,-</h4>
+            <div class="ourSpecials__item__stars">
+              <img src="./img/3star.png" alt="3 stars">
+            </div>
+            <div class="ourSpecials__item__info">
+              <div class="ourSpecials__item__title">
+                <button class="btn1" style="width: 140px; font-size: 15px; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#yourOrder" >Order Now</button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="ourSpecials__item g-col-6">
+          <div class="ourSpecials__item__img">
+            <img src="./img/Lamb Stew.jpeg" style="height: 260px;" alt="food img">
+          </div>
+          <div class="ourSpecials__item__info">
+            <h3 class="ourSpecials__item__title">
+                Brown Lamb Stew
+            </h3>
+            <h4 class="ourSpecials__item__price">Rp.49.000,-</h4>
+            <div class="ourSpecials__item__stars">
+              <img src="./img/3star.png" alt="3 stars">
+            </div>
+            <div class="ourSpecials__item__info">
+              <div class="ourSpecials__item__title">
+                <button class="btn1" style="width: 140px; font-size: 15px; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#yourOrder2">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <!-- New Menu -->
+      <section class="product">
+        <div class="container py-5">
+          <div class="row py-5">
+            <div class="col-lg-5 m-auto text-center" >
+                <h1 style="color: crimson;" style="font-weight: 700;">New Menus</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img src="./img/dimsum jellyfish.jpeg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <h6>Dimsum Jellyfish</h6>
+            <p>Rp. 35.000,-</p>
+          </div>
+          <div class="col-lg-3">
+            <div class="card border-0 bg-light mb-2">
+            <div class="card-body" >
+              <img src="./img/smoothies.jpeg" class="img-fluid" style="height: 190px;" alt="">
+            </div>
+          </div>
+          <h6>Smoothies Bery</h6>
+          <p>Rp. 25.000,-</p>
+        </div>
+        <div class="col-lg-3">
+          <div class="card border-0 bg-light">
+          <div class="card-body">
+            <img src="./img/pasta.png" class="img-fluid" alt="">
+          </div>
+        </div>
+        <h6>Pasta Carbonara</h6>
+        <p>Rp. 25.000,-</p>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 bg-light">
+        <div class="card-body">
+          <img src="./img/beefbrocolistir.jpeg" class="img-fluid" style="height: 190px;" alt="">
+        </div>
+      </div>
+      <h6>Beef Brocoli Stir Fry</h6>
+      <p>Rp. 49.000,-</p>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 text-center m-auto">
+        <button class="btn1">Click for More</button>
+      </div>
+    </div>
+      </div>
+      </section>
+
+<!-- About -->
+      <section class="about">
+        <div class="container py-5">
+          <div class="row py-5">
+            <div class="col-lg-8 m-auto text-center">
+              <h1 style="color: crimson; font-weight: 700;">Welcome to Our Website</h1>
+              <h6 style="color: rosybrown">Be Healthy</h6>
+            </div>
+            <div class="row">
+              <div class="col-lg-4">
+                  <img src="./img/images_cheeselemoncurd.jpeg" class="img-fluid" style="height: 300px;" alt="">
+                  <h5 style="color: crimson; font-weight: 500; padding-top: 10px;" >Cheese Lemon Curd</h5>
+                  <p>Lemon curd is an inherently British fruit spread used as a topping on toast or scones, as an alternative to jam or jelly, 
+                    or as filling in pastries or cakes. Tangy, sweet, silky, and smooth like a glossy custard but a bit lighter, 
+                    
+                  </p>
+              </div>
+              <div class="col-lg-4">
+                <img src="./img/Cucumber-Water.png" class="img-fluid" style="height: 300px;" alt="">
+                <h5 style="color: crimson; font-weight: 500; padding-top: 10px;">Cucumber Water</h5>
+                <p>Cucumber water has many potential health benefits, including hydration, weight loss, lowering blood pressure, and skin health. 
+                  It is easy to make and is an excellent substitute for popular, sugary vitamin waters.</p>
+            </div>
+            <div class="col-lg-4">
+              <img src="./img/pasta.png" class="img-fluid" style="height: 300px;" alt="">
+              <h5 style="color: crimson; font-weight: 500; padding-top: 10px;">Pasta</h5>
+              <p>Pasta is a type of food typically made from an unleavened dough of wheat flour mixed with water or eggs, 
+                and formed into sheets or other shapes, then cooked by boiling or baking.</p>
+          </div>
+            </div>
+            <div class="row pt-3">
+              <div class="col-lg-6 text-center m-auto">
+                <button class="btn1">Explore More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+<!-- Contact -->
+      <section class="contact py-5">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-9 m-auto text-center">
+              <h1>Contact Us</h1>
+              <h6 style="color: crimson;">Always Be in Touch With Us</h6>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-9 m-auto">
+              <div class="row">
+                <div class="col-lg-4">
+                  <h6>LOCATION</h6>
+                  <p>South Jakarta, DKI Jakarta</p>
+               
+                
+                  <h6>Phone</h6>
+                  <p>0812-8000-9000</p>
+          
+               
+                  <h6>Email</h6>
+                  <p>delicious.food@gmail.com</p>
+                </div>
+                <div class="col-lg-7">
+                  <div class="row">
+                    <div class="col-lg-6">
+                        <input type="text" class="form-control bg-light" placeholder="First Name">
+                    </div>
+                    <div class="col-lg-6">
+                        <input type="text" class="form-control bg-light" placeholder="First Name">
+                  </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 py-5">
+                      <textarea name="" class="form-control bg-ligth" placeholder="Enter your message here" id="" cols="10" rows="5">
+                      </textarea>
+                    </div>
+                  </div>
+                  <button class="btn1">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+        <hr>
+      </section>
+
+<!-- footer -->
+        <footer>
+        <div class="copyright"> 
+        
+        <div class="container">
+            <p class="copyright__text">
+              © copyright 2021 Kuni Inayah| All rights reserved
+            </p>
+        </div>
+        </div>
+
+
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+<!-- Start Modal -->
+
+    <div class="modal fade" id="yourOrder2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel" style="color: crimson;">Your Order</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="background-color: lightpink;">
+              <img 
+              src="./img/Lamb Stew.jpeg" 
+              class="ourSpecials__item__img" style="width: 450px; margin-left: 10px;"
+              alt="lambstew">
+          </div>
+          <div class="ourSpecials__item__info">
+            <h3 class="ourSpecials__item__title" style="text-align: center; color: crimson; font-weight: 700;">
+                Brown Lamb Stew
+            </h3>
+            <h4 class="ourSpecials__item__price" style="text-align: center; color: rosybrown; font-weight: 700;">Rp.49.000,-</h4>
+            </div> 
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="yourOrder" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel" style="color: crimson;">Your Order</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="background-color: lightpink;">
+              <img 
+              src="./img/beefstroganof.jpeg" 
+              class="ourSpecials__item__img" style="width: 450px; height: 250; margin-left: 10px;"
+              alt="beefstroganof">
+          </div>
+          <div class="ourSpecials__item__info">
+            <h3 class="ourSpecials__item__title" style="text-align: center; color: crimson; font-weight: 700;">
+                Fillet of Beef Stroganof
+            </h3>
+            <h4 class="ourSpecials__item__price" style="text-align: center; color: rosybrown; font-weight: 700;">Rp.49.000,-</h4>
+            </div> 
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- End Modal -->
+
+  </body>
+</html>
